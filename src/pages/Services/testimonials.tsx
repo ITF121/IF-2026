@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { useInView } from "../../hooks/useInView";
 
 interface TestimonialItemProps {
   quote: string;
@@ -8,8 +7,6 @@ interface TestimonialItemProps {
 }
 
 const TestimonialItem: React.FC<TestimonialItemProps> = ({ quote, author }) => {
-  const { ref, isVisible } = useInView<HTMLElement>(0.2);
-
   return (
     <Content>
       <Line></Line>
