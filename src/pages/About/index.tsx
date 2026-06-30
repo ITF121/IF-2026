@@ -68,7 +68,7 @@ const About = () => {
               <Line />
 
               <Paragraph>
-                I was born in La Paz, Bolivia, and raised <br />
+                I was born in La PazZZZZZZZZZZZZZZZZZZZZZZZZZ, Bolivia, and raised <br />
                 between Lima, Montevideo, <br />
                 and New York.
               </Paragraph>
