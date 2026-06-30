@@ -462,40 +462,5 @@ export const notasList = [
         text: "The process is a series of conversations.",
       },
     ],
-  },
-  {
-    id: 1,
-    titulo: "Clarity Changes Everything",
-    contenido: [
-      { tipo: "subtitulo", text: "Most people don’t lack options." },
-      { tipo: "giro", text: "They lack clarity." },
-
-      {
-        tipo: "parrafo",
-        text: "When direction is unclear, everything feels harder.",
-      },
-      { tipo: "parrafo", text: "Decisions take longer." },
-      { tipo: "parrafo", text: "Effort increases." },
-      { tipo: "parrafo", text: "Confidence drops." },
-
-      {
-        tipo: "parrafo",
-        text: "Not because the path is complex — ",
-      },
-      {
-        tipo: "parrafoBloque",
-        text: "but because it’s undefined.",
-      },
-
-      { tipo: "giro", text: "Clarity simplifies." },
-
-      { tipo: "parrafo", text: "It allows you to focus your energy," },
-
-      { tipo: "parrafo", text: "communicate your value," },
-      { tipo: "parrafoBloque", text: "and move forward with intention." },
-
-      { tipo: "cierreBold", text: "Clarity is not a luxury." },
-      { tipo: "cierreRegular", text: "It is the foundation." },
-    ],
-  },
+  }
 ];
