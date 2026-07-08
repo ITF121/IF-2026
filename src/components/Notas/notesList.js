@@ -418,7 +418,7 @@ export const notasList = [
     contenido: [
       {
         tipo: "subtitulo",
-        text: "Most people approach interviewing as an \n evaluation ",
+        text: "Most people approach interviewing as an evaluation ",
       },
       {
         tipo: "parrafo",
@@ -472,6 +472,7 @@ export const notasList = [
         tipo: "subtitulo",
         text: "The future isn’t something we discover. ",
       },
+      
       {
         tipo: "parrafo",
         text: "It is something we design.",
@@ -479,14 +480,13 @@ export const notasList = [
       {
         tipo: "parrafo",
         text: "It means creating the clarity to move intentionally toward what matters most.",
-
       },
       {
         tipo: "parrafo",
         text: "Not every circumstance is ours to choose.",
       },
 
-      { tipo: "giro", text: "Our response almost always is." },
+      { tipo: "giro", text: "Our response almost always is.",
 
       { tipo: "giro", text: "Imagining the future isn’t about hoping for change."
       },
