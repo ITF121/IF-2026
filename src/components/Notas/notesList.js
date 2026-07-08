@@ -462,5 +462,58 @@ export const notasList = [
         text: "The process is a series of conversations.",
       },
     ],
-  }
-];
+  },
+
+  {
+    id: 9,
+    titulo: "Imagine the Future",
+    contenido: [
+      {
+        tipo: "subtitulo",
+        text: "The future isn’t something we discover. ",
+      },
+      {
+        tipo: "parrafo",
+        text: "It is something we design.",
+      },
+      {
+        tipo: "parrafo",
+        text: "It means creating the clarity to move intentionally toward what matters most.",
+
+      },
+      {
+        tipo: "parrafo",
+        text: "Not every circumstance is ours to choose.",
+      },
+
+      { tipo: "giro", text: "Our response almost always is." },
+
+      { tipo: "giro", text: "Imagining the future isn’t about hoping for change."
+      },
+
+      {
+        tipo: "parrafo",
+        text: "It is intentional thinking. ",
+      },
+      {
+        tipo: "parrafoBloque",
+        text: "It asks us to pause.",
+      },
+      {  
+        tipo: "parrafoBloque",
+        text: "To reflect. To question.",
+      {
+        tipo: "parrafo",
+        text: "To see possibilities.",
+      },
+      {
+        tipo: "parrafo",
+        text: "Every meaningful change begins there.",
+      },
+
+      { tipo: "cierreBold", text: "Imagine the Future is more than a name." },
+      {
+        tipo: "cierreRegular",
+        text: "It is the philosophy that guides my work.",
+      },
+   ],
