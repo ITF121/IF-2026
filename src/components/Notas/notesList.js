@@ -494,11 +494,15 @@ export const notasList = [
       { tipo: "giro", text: "Imagine the Future is more than the name."
       },
       
-      { tipo: "parrafo",text: "It is the philosophy that guides every conversation, ",
-      { tipo: "parrafo",text: "every engagement, ",
-      { tipo: "parrafoBloque", text: "and every partnership." },
+      { tipo: "cierreBold", text: "It is the philosophy that guides every conversation," },
+     
       },
-  ],
+      {
+        tipo: "cierreBold", text: "every engagement," },
+      { tipo: "cierreRegular",
+        text: "and every partnership." 
+      },
+    ],
       
 
    
