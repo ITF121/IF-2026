@@ -469,25 +469,34 @@ export const notasList = [
     titulo: "Imagine the Future",
     contenido: [
       { tipo: "subtitulo", text: "The future isn’t something we discover." },
+      },
+  
       { tipo: "giro", text: "It is something we design." },
-
+      }, 
+  
       {
         tipo: "parrafo",
         text: "It means creating enough clarity to move intentionally toward what matters most.",
       },
+  
       { tipo: "parrafo", text: "Not every circumstance is ours to choose." },
       { tipo: "parrafo", text: "Our response almost always is." },
       { tipo: "parrafo", text: "Imagining the future isn’t about hoping for change." },
 
       {
         
-      { tipo: "giro", text: "It is intentional thinking." },
+      { tipo: "giro", text: "It is intentional thinking."
+      },
 
       {      
         tipo: "parrafo",text: "It asks us to pause. ",
+      },
       { tipo: "parrafo",text: "To reflect. ",
+      },
       { tipo: "parrafo",text: "To question. ",
+      },
       { tipo: "parrafo",text: "To see possibilities before they become plans. ",
+      },
       { tipo: "parrafoBloque",text: "but because it is undefined. ",
       },
       
@@ -498,7 +507,7 @@ export const notasList = [
      
       },
       {
-        tipo: "cierreBold", text: "every engagement," },
+        tipo: "cierreRegular", text: "every engagement," },
       { tipo: "cierreRegular",
         text: "and every partnership." 
       },
