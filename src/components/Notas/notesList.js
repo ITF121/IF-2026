@@ -469,10 +469,8 @@ export const notasList = [
     titulo: "Imagine the Future",
     contenido: [
       { tipo: "subtitulo", text: "The future isn’t something we discover." },
-      },
   
       { tipo: "giro", text: "It is something we design." },
-      }, 
   
       {
         tipo: "parrafo",
@@ -485,7 +483,7 @@ export const notasList = [
 
       {
         
-      { tipo: "giro", text: "It is intentional thinking."
+      tipo: "giro", text: "It is intentional thinking."
       },
 
       {      
@@ -505,7 +503,7 @@ export const notasList = [
       
       { tipo: "cierreBold", text: "It is the philosophy that guides every conversation," },
      
-      },
+      
       {
         tipo: "cierreRegular", text: "every engagement," },
       { tipo: "cierreRegular",
