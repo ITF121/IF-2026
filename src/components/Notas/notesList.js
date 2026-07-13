@@ -507,7 +507,7 @@ export const notasList = [
       {
         tipo: "cierreBold", text: "every engagement," },
       { 
-        tipo: "cierreBold",  "and every partnership." 
+        tipo: "cierreBold", text: "and every partnership." 
       },
       ],
   },
