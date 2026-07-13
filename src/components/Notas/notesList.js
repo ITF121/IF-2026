@@ -509,7 +509,10 @@ export const notasList = [
       { tipo: "cierreRegular",
         text: "and every partnership." 
       },
-    ]
+      ],
+  },
+  ];
+  
       
 
    
