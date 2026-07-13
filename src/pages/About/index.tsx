@@ -4,7 +4,7 @@ import Footer from "../../components/Footer";
 import Loading from "../../components/Loading";
 import styled from "styled-components";
 
-import { ProfileImage, Paragraph } from "./styles";
+import { Paragraph } from "./styles";
 
 import { Line, TextMain } from "../Services/styles";
 
@@ -17,12 +17,15 @@ const Columns = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
+    margin-left: 0;
   }
 `;
 
 const LeftColumn = styled.div`
   flex: 1;
+
   @media (max-width: 768px) {
+    order: 2;
     display: flex;
     flex-direction: column;
   }
@@ -30,9 +33,24 @@ const LeftColumn = styled.div`
 
 const RightColumn = styled.div`
   flex: 1;
+
   @media (max-width: 768px) {
+    order: 1;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+`;
+
+const StyledProfileImage = styled.img`
+  width: 90%;
+  height: auto;
+  margin-top: 8rem;
+
+  @media (max-width: 768px) {
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 `;
 
@@ -131,18 +149,16 @@ const About = () => {
             </LeftColumn>
 
             <RightColumn>
-              <ProfileImage
+              <StyledProfileImage
                 src={`${process.env.PUBLIC_URL}/images/profile.jpg`}
-                style={{
-                  width: "90%",
-                  height: "auto",
-                  marginTop: "8rem",
-                }}
+                alt="Profile"
               />
             </RightColumn>
           </Columns>
         </AboutContainer>
       )}
+
+      <Footer />
     </>
   );
 };
