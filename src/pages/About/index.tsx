@@ -158,8 +158,6 @@ const About = () => {
           </Columns>
         </AboutContainer>
       )}
-
-      <Footer />
     </>
   );
 };
