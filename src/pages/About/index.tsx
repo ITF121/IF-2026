@@ -28,6 +28,7 @@ const LeftColumn = styled.div`
     order: 2;
     display: flex;
     flex-direction: column;
+    padding-left: 5%;
   }
 `;
 
