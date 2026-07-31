@@ -1,6 +1,6 @@
 export const notasList = [
   {
-    id: 1,
+    id: 2,
     titulo: "Clarity Changes Everything",
     contenido: [
       { tipo: "subtitulo", text: "Most people don’t lack options." },
@@ -35,7 +35,7 @@ export const notasList = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     titulo: "Positioning Shapes Perception",
     contenido: [
       {
@@ -85,7 +85,7 @@ export const notasList = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     titulo: "Decisions Create Direction",
     contenido: [
       {
@@ -131,7 +131,7 @@ export const notasList = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     titulo: "Relationships Determine Results.",
     contenido: [
       {
@@ -196,7 +196,7 @@ export const notasList = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     titulo: "SAETA",
     contenido: [
       {
@@ -232,7 +232,7 @@ export const notasList = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     titulo: "Networking is not Transactional",
     contenido: [
       {
@@ -337,7 +337,7 @@ export const notasList = [
   },
 
   {
-    id: 7,
+    id: 8,
     titulo: "The Pitch",
     contenido: [
       {
@@ -413,7 +413,7 @@ export const notasList = [
   },
 
   {
-    id: 8,
+    id: 9,
     titulo: "Interviewing Is a Conversation",
     contenido: [
       {
@@ -465,7 +465,7 @@ export const notasList = [
   },
 
   {
-    id: 9,
+    id: 1,
     titulo: "Imagine the Future",
     contenido: [
       { tipo: "subtitulo", text: "The future isn’t something we discover." },
@@ -501,13 +501,13 @@ export const notasList = [
       { tipo: "giro", text: "Imagine the Future is more than the name."
       },
       
-      { tipo: "cierreBold", text: "It is the philosophy that guides every conversation," },
+      { tipo: "cierreRegular", text: "It is the philosophy that guides every conversation," },
      
       
       {
-        tipo: "cierreBold", text: "every engagement," },
+        tipo: "cierreRegular", text: "every engagement," },
       { 
-        tipo: "cierreBold", text: "and every partnership." 
+        tipo: "cierreRegular", text: "and every partnership." 
       },
       ],
   },
