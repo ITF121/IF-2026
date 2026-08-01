@@ -1,6 +1,89 @@
 export const notasList = [
+   {
+    id: 9,
+    titulo: "Imagine the Future",
+    contenido: [
+      { tipo: "subtitulo", text: "The future isn’t something we discover." },
+  
+      { tipo: "giro", text: "It is something we design." },
+  
+      {
+        tipo: "parrafo",
+        text: "It means creating enough clarity to move intentionally toward what matters most.",
+      },
+  
+      { tipo: "parrafo", text: "Not every circumstance is ours to choose." },
+      { tipo: "parrafo", text: "Our response almost always is." },
+      { tipo: "parrafo", text: "Imagining the future isn’t about hoping for change." },
+
+      {
+        
+      tipo: "giro", text: "It is intentional thinking."
+      },
+
+      {      
+        tipo: "parrafo",text: "It asks us to pause. ",
+      },
+      { tipo: "parrafo",text: "To reflect. ",
+      },
+      { tipo: "parrafo",text: "To question. ",
+      },
+      { tipo: "parrafo",text: "To see possibilities before they become plans. ",
+      },
+      { tipo: "parrafoBloque",text: "but because it is undefined. ",
+      },
+      
+      { tipo: "giro", text: "Imagine the Future is more than the name."
+      },
+      
+      { tipo: "cierreRegular", text: "It is the philosophy that guides every conversation," },
+     
+      
+      {
+        tipo: "cierreRegular", text: "every engagement," },
+      { 
+        tipo: "cierreRegular", text: "and every partnership." 
+      },
+      ],
+  },
+  
   {
-    id: 2,
+    id:10,
+    titulo: "The Journey",
+    contenido: [
+    { tipo: "subtitulo", text: "Every journey is different." },  
+    { tipo: "giro", text: "Just like every career." },  
+
+    {
+        tipo: "parrafo",
+        text: "There are twists and turns.",
+      },
+      { tipo: "parrafo", text: "Uphill climbs." },
+      { tipo: "parrafo", text: "Unexpected detours." },
+      { tipo: "parrafo", text: "And moments that ask us to pause.",
+      },
+      { tipo: "parrafo", text: "Sometimes we choose our path." },
+      { tipo: "parrafo", text: "Sometimes life leads us to it." ,
+    },   
+      { tipo: "giro", text: "The challenge is not to follow a perfect plan." },
+      
+      { tipo: "parrafo", text: "It is to keep moving with purpose, clarity and intention." },
+      { tipo: "parrafo", text: "To recognize when the path no longer fits." },
+      { tipo: "parrafoBloque", text: "And to have the courage to change direction when you must." },
+  
+      { tipo: "giro", text: "Every journey teaches us something." },
+      
+      { tipo: "parrafo", text: "Not only about where we are going." },
+      { tipo: "parrafoBloque", text: "But about who we are becoming." },
+      
+        { tipo: "cierreBold", text: "Destination matters." },
+      { tipo: "cierreRegular", text: "The journey shapes who we become." },
+    ],
+  },
+      
+      
+    {
+    id: 1,
     titulo: "Clarity Changes Everything",
     contenido: [
       { tipo: "subtitulo", text: "Most people don’t lack options." },
@@ -35,7 +118,7 @@ export const notasList = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     titulo: "Positioning Shapes Perception",
     contenido: [
       {
@@ -85,7 +168,7 @@ export const notasList = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     titulo: "Decisions Create Direction",
     contenido: [
       {
@@ -131,7 +214,7 @@ export const notasList = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     titulo: "Relationships Determine Results.",
     contenido: [
       {
@@ -196,7 +279,7 @@ export const notasList = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     titulo: "SAETA",
     contenido: [
       {
@@ -232,7 +315,7 @@ export const notasList = [
     ],
   },
   {
-    id: 7,
+    id: 6,
     titulo: "Networking is not Transactional",
     contenido: [
       {
@@ -337,7 +420,7 @@ export const notasList = [
   },
 
   {
-    id: 8,
+    id: 7,
     titulo: "The Pitch",
     contenido: [
       {
@@ -413,7 +496,7 @@ export const notasList = [
   },
 
   {
-    id: 9,
+    id: 8,
     titulo: "Interviewing Is a Conversation",
     contenido: [
       {
@@ -464,53 +547,7 @@ export const notasList = [
     ],
   },
 
-  {
-    id: 1,
-    titulo: "Imagine the Future",
-    contenido: [
-      { tipo: "subtitulo", text: "The future isn’t something we discover." },
-  
-      { tipo: "giro", text: "It is something we design." },
-  
-      {
-        tipo: "parrafo",
-        text: "It means creating enough clarity to move intentionally toward what matters most.",
-      },
-  
-      { tipo: "parrafo", text: "Not every circumstance is ours to choose." },
-      { tipo: "parrafo", text: "Our response almost always is." },
-      { tipo: "parrafo", text: "Imagining the future isn’t about hoping for change." },
 
-      {
-        
-      tipo: "giro", text: "It is intentional thinking."
-      },
-
-      {      
-        tipo: "parrafo",text: "It asks us to pause. ",
-      },
-      { tipo: "parrafo",text: "To reflect. ",
-      },
-      { tipo: "parrafo",text: "To question. ",
-      },
-      { tipo: "parrafo",text: "To see possibilities before they become plans. ",
-      },
-      { tipo: "parrafoBloque",text: "but because it is undefined. ",
-      },
-      
-      { tipo: "giro", text: "Imagine the Future is more than the name."
-      },
-      
-      { tipo: "cierreRegular", text: "It is the philosophy that guides every conversation," },
-     
-      
-      {
-        tipo: "cierreRegular", text: "every engagement," },
-      { 
-        tipo: "cierreRegular", text: "and every partnership." 
-      },
-      ],
-  },
   ];
   
       
