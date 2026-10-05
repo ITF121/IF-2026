@@ -128,8 +128,7 @@ export const notasList = [
      
       ],
       },
-  
-  {   
+   
     {
     id: 1,
     titulo: "Clarity Changes Everything",
