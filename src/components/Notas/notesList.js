@@ -124,10 +124,10 @@ export const notasList = [
       { tipo: "giro", "text": "Leadership is not about being at the center."
       },
       
-      { tipo: "cierreRegular", text: "It is moving aside to let others create, fail, learn, and move forward together."}
+      { tipo: "cierreRegular", text: "It is moving aside to let others create, fail, learn, and move forward together."},
      
       ]
-      }
+      },
   
   {   
     {
