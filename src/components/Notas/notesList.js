@@ -126,7 +126,7 @@ export const notasList = [
       
       { tipo: "cierreRegular", text: "It is moving aside to let others create, fail, learn, and move forward together."},
      
-      ]
+      ],
       },
   
   {   
