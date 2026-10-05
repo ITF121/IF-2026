@@ -86,51 +86,48 @@ export const notasList = [
     id: 11,
     titulo: "What Leadership Is Not",
     contenido: [
-      { tipo: "subtitulo", text: "Leadership is not control." },
-      { tipo: "subtitulo", text: "It is not having all the answers." },
-      { tipo: "subtitulo", text: "It is not making every decision." },
+      { tipo: "subtitulo", "text": "Leadership is not control." },
+      { tipo: "subtitulo", "text": "It is not having all the answers." },
+      { tipo: "subtitulo", "text": "It is not making every decision." },
   
       {
         tipo: "giro",
-        text: "And it is not about the leader.",
+        "text": "And it is not about the leader."
       },
-
-      { 
-      tipo: "giro", text: "Leadership begins with mission and vision.",
+      { tipo: "giro", "text": "Leadership begins with mission and vision."
       },
-      { tipo: "parrafo", text: "With a strategy, and the ability to communicate both clearly." ,
+      { tipo: "parrafo", "text": "With a strategy, and the ability to communicate both clearly." 
       },
      
       { 
-      tipo: "giro", text: "Leaders create understanding around what matters,",
+      tipo: "giro", "text": "Leaders create understanding around what matters,"
        },
        { 
-      tipo: "giro", text: "why it matters, and where we are going.",
+      tipo: "giro", "text": "why it matters, and where we are going."
       
       },
       {      
-        tipo: "parrafo",text: "They listen. ",
+        tipo: "parrafo","text": "They listen."
       },
-      { tipo: "parrafo",text: "They challenge. ",
+      { tipo: "parrafo","text": "They challenge."
       },
-      { tipo: "parrafo",text: "They build trust. ",
+      { tipo: "parrafo","text": "They build trust."
       },
-      { tipo: "parrafo",text: "They hold people accountable.",
+      { tipo: "parrafo","text": "They hold people accountable."
       },
       { tipo: "parrafoBloque",text: "They create the conditions for people to grow and do their best work. ",
       },
-      { tipo: "parrafo",text: "Control may produce compliance.",
+      { tipo: "parrafo","text": "Control may produce compliance."
       },
-       { tipo: "giro", text: "But it rarely brings out the best in people.",
+       { tipo: "giro", "text": "But it rarely brings out the best in people."
        },
-      { tipo: "giro", text: "Leadership is not about being at the center.",
+      { tipo: "giro", "text": "Leadership is not about being at the center."
       },
       
-      { tipo: "cierreRegular", text: "It is moving aside to let others create, fail, learn, and more forward together." ,
-      },
+      { tipo: "cierreRegular", text: "It is moving aside to let others create, fail, learn, and move forward together."}
      
-      ],
-      },
+      ]
+      }
   
   {   
     {
